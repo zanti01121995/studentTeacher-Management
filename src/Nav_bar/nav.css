@@ -1,0 +1,50 @@
+.navbar{
+    width: calc(100% - 250px);
+    height: 75px;
+    position: absolute;
+    left: 250px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+/* src/App.css */
+
+.input-group{
+  display: flex;
+}
+
+
+.search {
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  padding: 0 50px 0 50px;
+
+  input {
+
+      background: transparent;
+
+      &::placeholder {
+          font-size: 12px;
+      }
+  }
+
+}
+
+  
+  .navbar-title {
+    font-size: 24px;
+  }
+  
+  .add-employee-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px ;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

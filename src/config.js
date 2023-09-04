@@ -1,0 +1,1 @@
+export const studurl = "https://64f4a409932537f4051a8e53.mockapi.io"
